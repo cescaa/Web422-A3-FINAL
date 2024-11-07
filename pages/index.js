@@ -23,7 +23,7 @@ export default function Home() {
   // request data
   //const { data, error } = useSWR(`http://localhost:8000/api/listings/?page=${page}&perPage=10`);
   const { data, error } = useSWR(
-    `https://web422a1-api.onrender.com/api/listings/?page=${page}&perPage=10`
+    `https://web422-a1-render-deploy.onrender.com/api/listings/?page=${page}&perPage=10`
   ); // NOTE: DOES NOT WORK; DATA SHOWS LOCALLY ONLY
 
   useEffect(() => {
