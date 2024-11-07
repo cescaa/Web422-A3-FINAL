@@ -11,7 +11,7 @@ const Listing = () => {
   // request data
   //const { data, error, isLoading } = useSWR(id ? `http://localhost:8000/api/listings/${id}` : null);
   const { data, error, isLoading } = useSWR(
-    id ? `https://web422-a1-nine.vercel.app/api/listings/${id}` : null
+    id ? `https://web422a1-api.onrender.com/api/listings/${id}` : null
   ); // NOT WORKING! ONLY WORKS THROUGH LOCAL PORT
 
   if (isLoading) return null;
