@@ -8,7 +8,7 @@ export async function getStaticProps() {
   const listingID = "12954762";
   //const res = await fetch(`http://localhost:8000/api/listings/${listingID}`);
   const res = await fetch(
-    `https://web422a1-api.onrender.com/api/listings/${listingID}`
+    `https://web422-a1-render-deploy.onrender.com/api/listings/${listingID}`
   ); // NOTE: DOES NOT WORK! Data oonly shows locally (see above)
   const listingData = await res.json();
 
